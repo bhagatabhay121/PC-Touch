@@ -35,22 +35,21 @@ This guide will help you set up the laptop server to automatically start when yo
 
 ### Method 2: Using Task Scheduler (More Control)
 
-1. **Step 1:**
-   - git clone https://github.com/bhagatabhay121/PC-Touch
-     
-2. **Step 2:**
-   - cd PC-Touch
-3. **Step 3:**
-   - If you want to run server as service or whenever pc log in it start server in background
-  
-   - run install_windows.bat
-  
-4. **Step 4:**
-   - if you don't want run server as background always.
+```bash
+# Install git
+git clone https://github.com/bhagatabhay121/PC-Touch
 
-   - run laptop_server_autostart.py
+# Go To PC-Touch Directory
+cd PC-Touch
 
-**Finish**
+# If you want to run server as service or whenever pc log in it start server in background
+run install_windows.bat
+
+# if you don't want run server as background always.
+run laptop_server_autostart.py
+
+# Finished
+```
 
 ### Method 3: Windows Service (Advanced)
 
