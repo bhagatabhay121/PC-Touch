@@ -32,7 +32,11 @@ run install_windows.bat
 # if you don't want run server as background always.
 run laptop_server_autostart.py
 
-# Finished
+# Now Copy Ip Address and Port
+# Now Open PC Touch App or run main.py in mobile using pydroid
+
+# And Paste the Ip Address and Port.
+# Tap on connect
 ```
 
 ### Method 2: Windows Service (Advanced)
