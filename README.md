@@ -14,26 +14,8 @@ This guide will help you set up the laptop server to automatically start when yo
 
 ## 🪟 WINDOWS SETUP
 
-### Method 1: Using Startup Folder (Easiest)
 
-1. **Locate the Startup folder:**
-   - Press `Win + R`
-   - Type: `shell:startup`
-   - Press Enter
-
-2. **Copy the startup script:**
-   - Copy `windows_startup_silent.vbs` to the Startup folder
-   - Also place `laptop_server_autostart.py` in the same directory
-
-3. **Edit the VBS script (if needed):**
-   - Right-click `windows_startup_silent.vbs` → Edit
-   - Update the path to your Python script if it's in a different location
-
-4. **Test it:**
-   - Double-click the VBS file to test
-   - Check Task Manager → Background Processes for "pythonw.exe"
-
-### Method 2: Using Task Scheduler (More Control)
+### Method 1: Using Power Shell
 
 ```bash
 # Open Powershell and Go to the directory in which you want to clone
@@ -53,7 +35,7 @@ run laptop_server_autostart.py
 # Finished
 ```
 
-### Method 3: Windows Service (Advanced)
+### Method 2: Windows Service (Advanced)
 
 ```bash
 # Install NSSM (Non-Sucking Service Manager)
