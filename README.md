@@ -36,6 +36,8 @@ This guide will help you set up the laptop server to automatically start when yo
 ### Method 2: Using Task Scheduler (More Control)
 
 ```bash
+# Open Powershell and Go to the directory in which you want to clone
+
 # Install git
 git clone https://github.com/bhagatabhay121/PC-Touch
 
